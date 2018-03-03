@@ -6,8 +6,7 @@ public class AdvanceTicket extends Ticket{
 	
 	//constructor with 2 parameters (the first from the super class)
 	public AdvanceTicket (int ticketNumber, int numberOfDays) {
-		super(ticketNumber);
-		this.numberOfDays = numberOfDays;
+		super(ticketNumber);	
 	}
 	
 	// sets the discount price based on numbers of days before event tickets are purchased
